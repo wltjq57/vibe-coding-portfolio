@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Markus Räikkönen</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">On<span>Profile</span></div>
+        <nav class="nav" id="nav">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="btn btn-outline header-cta">Hire Me</button>
+        <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="hero-bg-accent"></div>
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">Product Designer</p>
+            <h1>신지섭</h1>
+            <p class="subtitle">
+              디지털 제품을 더 쉽고, 더 아름답게 만드는 UX/UI 프로덕트 디자이너입니다.
+            </p>
+            <div class="hero-actions">
+              <button class="btn btn-primary">Contact me</button>
+              <button class="btn btn-secondary">Download CV</button>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-photo">
+              <!-- 실제 이미지를 사용하려면 아래 src를 교체하세요 -->
+              <img
+                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Product Designer"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services / Process Section -->
+      <section class="services" id="services">
+        <div class="container services-inner">
+          <div class="service-grid">
+            <article class="service-card">
+              <h3>User Research</h3>
+              <p>정량·정성 리서치를 통해 사용자의 진짜 문제를 발견합니다.</p>
+            </article>
+            <article class="service-card">
+              <h3>Visual Design</h3>
+              <p>브랜드 아이덴티티와 잘 어울리는 감각적인 UI를 만듭니다.</p>
+            </article>
+            <article class="service-card">
+              <h3>User Testing</h3>
+              <p>프로토타입을 바탕으로 빠른 검증과 반복을 진행합니다.</p>
+            </article>
+            <article class="service-card">
+              <h3>Prototyping</h3>
+              <p>인터랙션이 살아 있는 하이파이 프로토타입을 제공합니다.</p>
+            </article>
+          </div>
+
+          <div class="about" id="about">
+            <p class="eyebrow">About me</p>
+            <h2>알아가면서 성장하는 개발자가 되겠습니다</h2>
+            <p class="about-text">
+              7년 이상의 제품 디자인 경험을 바탕으로 스타트업부터 엔터프라이즈까지
+              다양한 규모의 프로젝트를 진행했습니다. 문제 정의부터 와이어프레임,
+              비주얼 디자인, 프로토타이핑, 유저 테스트까지 엔드 투 엔드로 함께합니다.
+            </p>
+            <button class="btn btn-primary">Let&apos;s collaborate</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Capabilities Section -->
+      <section class="capabilities" id="projects">
+        <div class="container capabilities-inner">
+          <div class="cap-video">
+            <div class="cap-video-frame">
+              <img
+                src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Designer with boombox"
+              />
+              <div class="cap-progress">
+                <div class="cap-progress-bar"></div>
+                <span class="cap-progress-time">03:24</span>
+              </div>
+            </div>
+            <p class="eyebrow">My skills</p>
+            <h2>이해하기까지 열심히 학습 하겠습니다.</h2>
+            <p class="cap-text">
+              브랜드 전략 수립부터 제품 출시 이후 고도화까지, 다양한 스킬셋으로
+              비즈니스와 사용자를 모두 만족시키는 경험을 설계합니다.
+            </p>
+            <div class="cap-actions">
+              <button class="btn btn-primary">See portfolio</button>
+              <button class="btn btn-secondary">Download case study</button>
+            </div>
+          </div>
+
+          <div class="cap-cards">
+            <article class="cap-card">
+              <h3>Brand Identity</h3>
+              <p>
+                브랜딩 키워드 정의부터 로고, 컬러 시스템, 톤앤매너까지 일관된 브랜드
+                경험을 만듭니다.
+              </p>
+              <a href="#" class="cap-link">View projects</a>
+            </article>
+            <article class="cap-card">
+              <h3>Product Design</h3>
+              <p>
+                웹·모바일 앱 전반의 IA, UX 플로우, 인터랙션을 설계해 완성도 높은 제품을
+                만듭니다.
+              </p>
+              <a href="#" class="cap-link">Explore work</a>
+            </article>
+            <article class="cap-card">
+              <h3>Interaction Design</h3>
+              <p>
+                마이크로 인터랙션과 애니메이션으로 브랜드 개성을 살리고 사용성을
+                높입니다.
+              </p>
+              <a href="#" class="cap-link">See prototypes</a>
+            </article>
+            <article class="cap-card">
+              <h3>App Design</h3>
+              <p>
+                iOS/Android 가이드라인을 고려한 네이티브 앱 디자인으로 자연스러운 사용
+                경험을 제공합니다.
+              </p>
+              <a href="#" class="cap-link">View cases</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-inner">
+        <p>© 2026 Markus Räikkönen. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Behance</a>
+          <a href="#">Dribbble</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
